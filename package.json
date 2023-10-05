@@ -1,0 +1,23 @@
+{
+  "name": "adminsystem",
+  "version": "1.0.0",
+  "description": "Web app for database management",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx tailwindcss -i ./static/src/input.css -o ./static/dist/css/output.css --watch"
+  },
+  "keywords": [
+    "management",
+    "mysql",
+    "administration",
+    "control",
+    "clients",
+    "products"
+  ],
+  "author": "Elsa",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
